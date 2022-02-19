@@ -5,12 +5,12 @@
     margin: 0;
 }
 
-/* Background color for the body element */
+/* Styles background color for the body element */
 body {
     background-color: #d9dcd6;
 }
 
-/* Selects styles with a class of header to specify background color, padding, and font stack to header */
+/* Styles with a class of header to specify background color, padding, and font stack to header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,12 +24,12 @@ body {
     font-size: 48px;
 }
 
-/* Specifies color of "seo" in Horiseon */
+/* Only Specifies color of "seo" in Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Selects styles with a class of header and section element */
+/* Styles with a class of header and section element */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,25 +38,29 @@ body {
     font-size: 20px;
 }
 
-/*  */
+/* Styles with a class of header also section and ul elements  */
 .header section ul {
     list-style-type: none;
 }
 
+/* Styles display and margin property on all elements with a class of header and section ul, li elements */
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styles font decor and color with a element */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Styles font size with p element */
 p {
     font-size: 16px;
 }
 
+/* Styles all elements with a class of hero */
 .hero {
     height: 800px;
     width: 100%;
@@ -66,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Sets margin, and float property on all elements with a class of float-left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets margin, and float property on all elements with a class of float-right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets Width display and margin property on all elements with a class of content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Adds style to class of benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,43 +101,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Styles margin and color to grouping of all class selectors listed */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Adds style to grouping of all class selectors listed with all h3 elements */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Adds display, margin, and width to grouping of all class selectors listed with all img elements */
 .benefit-lead img, .benefit-brand img, .benefit-cost img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Adds style to grouping of all classes listed        */
+/* Adds styling to grouping of all class selectors listed */
 .search-engine-optimization, .online-reputation-management, 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -140,20 +131,20 @@ p {
     color: #ffffff;
 }
 
-/* Styles all section images with classes of seo, online rep, and social media marketing */
+/* Styles max height of all section images with classes of seo, online rep, and social media marketing with all img elements */
 .search-engine-optimization img, .online-reputation-management img, 
 .social-media-marketing img  {
     max-height: 200px;
 }
 
-/* Adds style to all elements with a grouping of all class selectors with all h2 elements */
+/* Styles margin and font size to all elements with a grouping of all class selectors with all h2 elements */
 .online-reputation-management h2, .social-media-marketing h2, 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Adds style to all elements with a class selector of footer */
+/* Adds styling to all elements with a class selector of footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -161,7 +152,7 @@ p {
     text-align: center;
 }
 
-/* Adds style to all elements with a class selector of footer and h2 element */
+/* Styles font size of all elements in footer parent of h2 element */
 .footer h2 {
     font-size: 20px;
 }
